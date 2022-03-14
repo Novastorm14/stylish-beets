@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+h1 {
+color: #3f1622;
+font-family: "PT Sans";
+font-size: 1.5rem;
+font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  color: #8f2440;
+  font-family: "PT Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+}
+
+h2 {
+color: #3f1622;
+font-family: "PT Sans";
+font-size: 1.5rem;
+font-style: normal;
+}

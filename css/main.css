@@ -23,16 +23,54 @@ img {
   width: 100%;
 }
 
-nav {
+a {
   color: #8f2440;
   font-family: "PT Sans";
   font-size: 1.125rem;
-  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+figcaption {
+  color: #222;
+  font-family: "PT Serif";
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+blockquote {
+  color: #222;
+  font-family: "PT Serif";
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 h2 {
 color: #3f1622;
 font-family: "PT Sans";
 font-size: 1.5rem;
-font-style: normal;
+font-weight: normal;
+}
+
+.days {
+  color: #222;
+  font-family: "PT Serif";
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+main {
+  color: #222;
+  font-family: "PT Serif";
+  font-size: 0.8rem;
+  font-style: normal;
 }

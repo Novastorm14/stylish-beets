@@ -45,10 +45,9 @@ a:hover {
 }
 
 dt {
-  color: #3f1622;
-  font-family: "PT Sans";
-  font-size: 1.125rem;
-  font-weight: normal;
+  color: #222;
+  font-family: "PT Serif";
+  font-weight: bold;
 }
 
 figcaption {
@@ -84,4 +83,15 @@ figure + p {
   font-family: "PT Serif";
   font-size: 1.125rem;
   font-weight: bold;
+}
+
+.tags {
+  color: #222;
+  font-family: "PT Serif";
+  font-size: .8rem;
+  list-style-type: circle;
+}
+
+.varieties {
+  list-style-type: lower-greek;
 }
